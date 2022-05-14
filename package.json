@@ -1,0 +1,22 @@
+{
+  "name": "petitjuliette",
+  "version": "1.0.0",
+  "description": "PRACTICA DE GULP, SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ../Petitjuliette/src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WalterCan/Petitjuliette.git"
+  },
+  "author": "Walter Cantero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WalterCan/Petitjuliette/issues"
+  },
+  "homepage": "https://github.com/WalterCan/Petitjuliette#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}
