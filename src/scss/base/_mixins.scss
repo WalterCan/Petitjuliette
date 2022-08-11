@@ -1,0 +1,7 @@
+// Media Query
+
+@mixin phone {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
