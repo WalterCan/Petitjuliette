@@ -387,7 +387,7 @@ h3 {
 }
 
 .header {
-  background-color: #c0b283;
+  background-color: #f4f4f4;
 }
 .header h1 {
   color: #373737;
@@ -432,4 +432,48 @@ h3 {
 .navegacion-principal a:hover {
   color: #f53756;
   font-weight: bolder;
+}
+
+.video {
+  position: relative;
+  max-height: 70rem;
+  min-height: 50rem;
+  overflow: hidden;
+}
+.video .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(36, 36, 0);
+  background: linear-gradient(90deg, rgba(36, 36, 0, 0.2416316869) 0%, rgba(192, 190, 131, 0.1463935916) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video video {
+  width: auto;
+  display: block;
+}
+@media (min-width: 992px) {
+  .video video {
+    width: 100%;
+  }
+}
+
+.contenido-video {
+  text-transform: uppercase;
+  z-index: 1;
+}
+.contenido-video h2 {
+  color: #ffffff;
+  font-size: 5rem;
+  margin: 0;
+}
+.contenido-video p {
+  background-color: #fef46d;
+  display: inline-block;
+  padding: 2rem;
+  color: #f53756;
+  font-weight: 700;
+  margin: 0;
 }
