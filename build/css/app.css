@@ -426,6 +426,11 @@ h3 {
 @media (min-width: 768px) {
   .navegacion-principal a {
     margin: 0;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .navegacion-principal a {
     font-size: 4rem;
   }
 }
@@ -466,7 +471,7 @@ h3 {
 }
 .contenido-video h2 {
   color: #ffffff;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0;
 }
 .contenido-video p {

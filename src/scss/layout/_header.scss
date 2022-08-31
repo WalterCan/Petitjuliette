@@ -33,6 +33,10 @@
     margin-bottom: 1rem; // Espacio entre enlaces
     @include m.tablet {
       margin: 0;
+      font-size: 3rem;
+    }
+    //cambio de tamaño a los enlaces
+    @include m.desktop {
       font-size: 4rem;
     }
 
